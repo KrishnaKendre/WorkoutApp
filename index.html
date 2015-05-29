@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Spartacus Workout Application</title>
+		<meta name="description" content="Page Preloading Effect: Re-creating the effect seen on fontface.ninja" />
+		<meta name="keywords" content="page loading, effect, initial, logo, sliding, web design, css animation, transform" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/effect1.css" />
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	</head>
+
+	<body class="demo-1">
+	<div id="ip-container" class="ip-container">
+			<!-- initial header -->
+			<header class="ip-header">
+				<h1 class="ip-logo">
+					<center><img src="img/logo.jpg" alt="Smiley face" height="238" width="523"></center>
+				</h1>
+				<div class="ip-loader">
+					<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+						<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+						<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+					</svg>
+				</div>
+			</header>
+
+			<!-- main content -->
+			<div class="ip-main">
+
+				<center><h1 id ="phrase">Let's Get Started!</h1></center>
+				<h2 id="title">Click on start to begin</h2>
+
+				<center><input id="startButton" type="button" value="Start"></center>
+
+				<div>
+					<center><img id="image"></center>
+				</div>
+
+				<div id="description"></div>
+
+				<audio id="audioSpart0" src="audio/spart0.wav" preload="auto"/>
+				<audio id="audioSpart1" src="audio/spart1.wav" preload="auto"/>
+				<audio id="audioSpart2" src="audio/spart2.wav" preload="auto"/>
+				<audio id="audioSpart3" src="audio/spart3.wav" preload="auto"/>
+				<audio id="audioSpart4" src="audio/spart4.wav" preload="auto"/>
+				<audio id="audioSpart5" src="audio/spart5.wav" preload="auto"/>
+				<audio id="audioSpart6" src="audio/spart6.wav" preload="auto"/>
+				<audio id="audioSpart7" src="audio/spart7.wav" preload="auto"/>
+				<audio id="audioSpart8" src="audio/spart8.wav" preload="auto"/>
+				<audio id="audioSpart9" src="audio/spart9.wav" preload="auto"/>
+				<audio id="audio1" src="audio/1.wav" preload="auto"/>
+				<audio id="audio2" src="audio/2.wav" preload="auto"/>
+				<audio id="audio3" src="audio/3.wav" preload="auto"/>
+				<audio id="audio4" src="audio/4.wav" preload="auto"/>
+				<audio id="audio5" src="audio/5.wav" preload="auto"/>
+				<audio id="audio6" src="audio/6.wav" preload="auto"/>
+				<audio id="audio7" src="audio/7.wav" preload="auto"/>
+				<audio id="audio8" src="audio/8.wav" preload="auto"/>
+				<audio id="audio9" src="audio/9.wav" preload="auto"/>
+				<audio id="audio10" src="audio/10.wav" preload="auto"/>
+				<audio id="audio10sec" src="audio/10_seconds.wav" preload="auto"/>
+				<audio id="audio15sec" src="audio/15_seconds.wav" preload="auto"/>
+				<audio id="audio30sec" src="audio/30_seconds.wav" preload="auto"/>
+				<audio id="audioRest" src="audio/and_rest.wav" preload="auto"/>
+				<audio id="audioBegin" src="audio/begin.wav" preload="auto"/>
+				<audio id="audioRound" src="audio/round_complete.wav" preload="auto"/>
+				<audio id="audioFinish" src="audio/workout_complete.wav" preload="auto"/>
+
+			</div>
+	</div><!-- /container -->
+		<script src="js/stopwatch.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/pathLoader.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
